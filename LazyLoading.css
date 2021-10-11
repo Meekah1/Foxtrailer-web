@@ -1,0 +1,23 @@
+.lazyContainer {
+  display: flex;
+  align-items: center;
+}
+.lazy-loading {
+  width: 150px;
+  height: 225px;
+  margin: 10px 10px 111px 10px;
+  border-radius: 14px;
+}
+
+@media (max-width: 800px) {
+  .lazy-loading {
+    width: 150px;
+    height: 225px;
+    margin: 10px 10px 122px 10px;
+    border-radius: 14px;
+  }
+  .lazyContainer {
+    display: flex;
+    align-items: center;
+  }
+}

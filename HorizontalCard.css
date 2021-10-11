@@ -1,0 +1,51 @@
+.image-container {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+  margin: 10px;
+  /* background-color: rgba(3, 37, 64, 1); */
+  position: relative;
+  cursor: pointer;
+}
+
+.img-sizes {
+  width: 300px;
+  height: 168.53px;
+  background-color: rgba(3, 37, 64, 1);
+  border-radius: 10px;
+}
+
+.hover-effect {
+  width: 301px;
+  height: 173px;
+}
+
+.horizon-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: -20px;
+  margin-left: 86px;
+}
+
+.horizon-title {
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  text-align: center;
+  margin-left: -88px;
+  margin-top: 28px;
+}
+
+.horizon-name {
+  color: #fff;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  text-align: center;
+  margin-left: -87px;
+  margin-top: -16px;
+}
+
+.hover-effect:hover {
+  transform: scale(1.07);
+  animation-name: effect;
+  animation-duration: 4s;
+  transition: all 0.5s;
+}

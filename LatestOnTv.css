@@ -1,0 +1,40 @@
+.flex-containers {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 168.53px;
+  position: relative;
+  top: 46px;
+  left: 22px;
+}
+
+.title-style {
+  color: #fff;
+  position: relative;
+  top: -10px;
+}
+/* 
+ .flex-containers::-webkit-scrollbar {
+  width: 8px;  width of the entire scrollbar 
+  height: 14px;
+} */
+
+/*  
+.flex-containers::-webkit-scrollbar-track {
+  background: transparent;  color of the tracking area 
+}  */
+
+/* .flex-containers::-webkit-scrollbar-thumb {
+  background-color: rgba(226, 224, 224, 0.8);   color of the scroll thumb 
+  border-radius: 20px;   roundness of the scroll thumb 
+  border: 3px solid white;   creates padding around scroll thumb 
+}  */
+
+@media (max-width: 800px) {
+  .flex-containers {
+    padding-top: 0;
+    position: relative;
+    top: -11px;
+    left: 8px;
+  }
+}

@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  height: 330px;
+  opacity: 0.8;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 21;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  transition: height 0.5s linear;
+}
+.container::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+  height: 10px;
+}
+.container::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: rgba(226, 224, 224, 0.8); /* color of the scroll thumb */
+  border-radius: 13px; /* roundness of the scroll thumb */
+  border: 1px solid white; /* creates padding around scroll thumb */
+}
+
+.flex-contain {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 168.53px;
+}
+
+.hover-effects {
+  width: 374px;
+  height: 220px;
+}
+/* .container:hover {
+  background: url('https://www.themoviedb.org/t/p/w355_and_h200_multi_faces/6KsfFlAtRbfWgF8S5LI8nVErtSp.jpg');
+} */
+.hover-effect:hover {
+  transform: scale(1.1);
+  animation-name: effect;
+  animation-duration: 4s;
+  transition: all 0.5s;
+}

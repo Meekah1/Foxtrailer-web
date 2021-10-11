@@ -1,0 +1,53 @@
+.flex-cont {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 168.53px;
+  position: relative;
+  top: -11px;
+  left: 32px;
+}
+
+.title-styile {
+  color: #fff;
+  position: relative;
+  top: -10px;
+}
+
+.flex-cont::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+  height: 14px;
+}
+
+.flex-cont::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+.flex-cont::-webkit-scrollbar-thumb {
+  background-color: rgba(226, 224, 224, 0.8); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid white; /* creates padding around scroll thumb */
+}
+
+iframe {
+  width: 900px;
+  height: 485px;
+}
+
+@media (max-width: 800px) {
+  .flex-cont {
+    padding-top: 0;
+  }
+
+  iframe {
+    width: 400px;
+    height: 230px;
+  }
+
+  .closeIcon {
+    position: absolute;
+    left: -490px;
+    top: -3px;
+    color: #fff;
+  }
+}
